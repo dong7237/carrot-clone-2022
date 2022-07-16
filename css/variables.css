@@ -1,0 +1,26 @@
+:root {
+    --carrot: #ff8a3d;
+}
+
+.inline {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 -10px;
+}
+
+.line {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    margin: 0 -50px;
+}
+
+.new {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: var(--carrot);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 10px;
+    position: absolute;
+}

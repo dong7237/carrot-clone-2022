@@ -1,0 +1,110 @@
+.screen-nav {
+    position: fixed;
+    bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.screen-nav-column {
+    opacity: 0;
+    animation: screennav 0.5s ease-in-out forwards;
+}
+
+.screen-nav-column,
+.home-ani {
+    animation-delay: 0.5s;
+}
+
+
+@keyframes screennav {
+    from {
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.screen-nav-column:first-child {
+    animation-delay: 0s;
+}
+
+.screen-nav-column:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.screen-nav-column:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.screen-nav-column:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.screen-nav-column:last-child {
+    animation-delay: 0.8s;
+}
+
+.screen-nav-column,
+.home-ani:first-child {
+    animation-delay: 0.5s;
+}
+
+.screen-nav-column,
+.home-ani:nth-child(2) {
+    animation-delay: 0.7s;
+}
+
+.screen-nav-column,
+.home-ani:nth-child(3) {
+    animation-delay: 0.9s;
+}
+
+.screen-nav-column,
+.home-ani:nth-child(4) {
+    animation-delay: 1.1s;
+}
+
+.screen-nav-column,
+.home-ani:last-child {
+    animation-delay: 1.3s;
+}
+
+.screen-nav-column a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    position: relative;
+}
+
+.screen-nav-column i {
+    padding-bottom: 15px;
+}
+
+.nav-where {
+    top: 0;
+    right: 35px;
+    animation: dot-ani 0.5s ease-in-out infinite;
+}
+
+@keyframes dot-ani {
+    0% {
+        transform: none;
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+
+    100% {
+        transform: none;
+    }
+}

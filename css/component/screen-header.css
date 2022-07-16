@@ -1,0 +1,56 @@
+.screen-header {
+    position: fixed;
+    top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 27px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+div.screen-header-column .fa-bell {
+    animation: ringing 0.5s linear infinite;
+}
+
+@keyframes ringing {
+    0% {
+        transform: rotate(0turn);
+    }
+
+    50% {
+        transform: rotate(0.05turn);
+    }
+
+    75% {
+        transform: rotate(-0.05turn);
+    }
+
+    100% {
+        transform: rotate(0turn);
+    }
+}
+
+.screen-header-column {
+    font-size: 22px;
+    position: relative;
+}
+
+.header-where {
+    top: -4px;
+    right: -1px;
+}
+
+.screen-header-column:last-child i {
+    margin-left: 23px;
+}
+
+.screen-header-column:first-child span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.screen-header-column:first-child i {
+    font-size: 15px;
+}

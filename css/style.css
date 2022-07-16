@@ -1,0 +1,46 @@
+@import url(component/status-bar.css);
+@import url(component/status-navigation.css);
+@import url(component/screen-header.css);
+@import url(component/screen-nav.css);
+@import url(screen1/login.css);
+@import url(variables.css);
+@import url(reset.css);
+@import url(screen1/home.css);
+@import url(component/dot.css);
+@import url(screen1/community.css);
+@import url(screen1/myboundary.css);
+@import url(screen1/chatting.css);
+@import url(screen1/inchat.css);
+@import url(screen1/mycarrot.css);
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    height: 100vh;
+
+
+}
+
+main {
+    margin: 25px 15px 25px 15px;
+}
+
+.screen-lock {
+    position: absolute;
+    z-index: 9999;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--carrot);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+@media screen and (max-width:650px) {
+    .screen-lock {
+        display: none;
+    }
+}

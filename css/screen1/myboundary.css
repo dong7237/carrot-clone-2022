@@ -1,0 +1,149 @@
+.myboundary-main {
+    padding: 80px 0 110px 0;
+}
+
+
+
+.myboundary-menu-column:active {
+    transform: scale(0.95);
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.1s ease-in-out;
+}
+
+
+.myboundary-big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.myboundary-menu {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.myboundary-menu-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 25%;
+    font-size: 15px;
+}
+
+.myboundary-menu-column span:first-child {
+    padding-bottom: 15px;
+    font-size: 25px;
+}
+
+.happen-title {
+    padding: 25px 10px 25px 0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.happen-menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+.happen-menu div {
+    padding: 15px;
+
+}
+
+.happen-menu div:hover {
+    color: black;
+    transition: 0.1s ease-in-out;
+    border-bottom: 2px solid black;
+    transform: translateY(2px);
+}
+
+.myboundary-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.main-colulm {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.main-colulm span {
+    padding-bottom: 5px;
+}
+
+.main-colulm .main-colulm-title:nth-child(2) {
+    font-size: 20px;
+}
+
+.main-colulm .main-colulm-title:last-child {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-colulm span:first-child span:last-child {
+    color: rgba(0, 0, 0, 0.5);
+    flex-direction: row;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*icon color*/
+.fa-shirt {
+    color: var(--carrot);
+}
+
+.fa-car {
+    color: blueviolet;
+}
+
+.fa-apple-whole {
+    color: red;
+}
+
+.fa-house-chimney-window {
+    color: skyblue;
+}
+
+.fa-book {
+    color: seagreen;
+}
+
+.fa-calendar-days {
+    color: var(--carrot);
+}
+
+.fa-map-location-dot {
+    color: var(--carrot);
+}
+
+.fa-cart-arrow-down {
+    color: var(--carrot);
+}

@@ -1,0 +1,58 @@
+.chat-main {
+    margin-top: 120px;
+}
+
+.chatcolumn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+
+}
+
+.chatstatus {
+    width: 95%;
+
+    padding-bottom: 15px;
+}
+
+.chatprofileimg img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.chatprofileimg {
+    margin-right: 15px;
+}
+
+.chatinnerimg img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.chatinfo {
+    margin-bottom: 10px;
+}
+
+.chatinfo span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.chatinfo span:last-child {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.chatchat {
+    font-size: 20px;
+}
+
+.chat-out {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.chat-out .chatinfo span:last-child {
+    color: rgba(0, 0, 0, 0.2);
+}

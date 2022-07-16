@@ -1,0 +1,29 @@
+.status-navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 2;
+}
+
+.status-navigation-button {
+    width: 33%;
+    align-items: center;
+    padding: 0 45px;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: white;
+}
+
+.status-navigation-button:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.status-navigation-button:last-child {
+    display: flex;
+    justify-content: flex-end
+}
