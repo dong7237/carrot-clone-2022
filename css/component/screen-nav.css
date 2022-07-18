@@ -1,7 +1,7 @@
 .screen-nav {
     position: fixed;
     bottom: 25px;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     padding: 25px 20px;
@@ -17,6 +17,10 @@
 .screen-nav-column,
 .home-ani {
     animation-delay: 0.5s;
+}
+
+.screen-nav-column a span {
+    font-size: 13px;
 }
 
 

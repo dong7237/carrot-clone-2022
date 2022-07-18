@@ -12,10 +12,11 @@
 @import url(screen1/chatting.css);
 @import url(screen1/inchat.css);
 @import url(screen1/mycarrot.css);
+@import url(screen1/inchat2.css);
 
 body {
     font-family: 'Nanum Gothic', sans-serif;
-    height: 100vh;
+
 
 
 }
